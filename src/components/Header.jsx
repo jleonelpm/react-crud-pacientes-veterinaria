@@ -1,9 +1,14 @@
+
+import logo from "../logo.png"
  const Header = () => {
   return (
-    <div  >
-      <h1 className="font-black text-5xl text-center md:w-2/3 mx-auto">
-        Sistema Veterinario
+    <div>
+      <img src={logo} alt="Logo" />
+
+      <h1 className="font-black text-center text-5xl md:w-2/3 mx-auto">
+        Sistema Veterinario <br />
       </h1>
+
     </div>
   )
 }
